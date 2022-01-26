@@ -156,7 +156,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:provcm01012021_wgs84</Layers>
+				<Layers>GH:tr_con_dccm</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -166,7 +166,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:provcm01012021_wgs84</Layers>
+				<Layers>GH:tr_con_dccm</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -176,7 +176,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:tr_con_dccm</Layers>
+				<Layers>GH:provcm01012021_wgs84</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -186,7 +186,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:tr_con_dccm</Layers>
+				<Layers>GH:provcm01012021_wgs84</Layers>
 				<Styles></Styles>
 			</TileSet>
 		</VendorSpecificCapabilities>
@@ -233,31 +233,11 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:provcm01012021_wgs84</Name>
-				<Title>provcm01012021_wgs84</Title>
-				<Abstract>GH:provcm01012021_wgs84 ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/tuobbi80/DCCM/releases/download/Map_Download/provcm01012021_wgs84.zip˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="6.538878612681292" miny="35.21691372495886" maxx="19.61373882878219" maxy="47.13613094235398"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="313279.2522" miny="3933682.9321999997" maxx="1312016.1509999996" maxy="5220292.2928"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=provcm01012021_wgs84"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:tr_con_dccm</Name>
 				<Title>tr_con_dccm</Title>
 				<Abstract>GH:tr_con_dccm ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/tuobbi80/DCCM/releases/download/Map_Download/tr_con_dccm.zip˸notListing˸˸maxZoom˸5</Keyword>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="6.638004996000063" miny="36.71141769700006" maxx="18.16499739900007" maxy="47.006768599000054"></LatLonBoundingBox>
@@ -269,6 +249,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=tr_con_dccm"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:provcm01012021_wgs84</Name>
+				<Title>provcm01012021_wgs84</Title>
+				<Abstract>GH:provcm01012021_wgs84 ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="6.538878612681292" miny="35.21691372495886" maxx="19.61373882878219" maxy="47.13613094235398"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="313279.2522" miny="3933682.9321999997" maxx="1312016.1509999996" maxy="5220292.2928"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=provcm01012021_wgs84"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
